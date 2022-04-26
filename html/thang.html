@@ -11,9 +11,11 @@
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script>
-        $document.ready(function() {
-            $("#mnuDangKy").click(function() {})
-            $("#myModal").modal();
+        $(document).ready(function() {
+            $("#mnuDangKy").click(function() {
+                $("#myModal").modal("show");
+            })
+
         });
 
         function ktHoTen() {
